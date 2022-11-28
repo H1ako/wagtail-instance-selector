@@ -5,7 +5,7 @@ from wagtail import VERSION as WAGTAIL_VERSION
 from instance_selector.widgets import InstanceSelectorWidget
 
 if WAGTAIL_VERSION >= (3, 0):
-    from wagtail.admin.panels import BaseChooserPanel
+    from wagtail.admin.panels import FieldPanel as BaseChooserPanel
 else:
     from wagtail.admin.edit_handlers import BaseChooserPanel
 

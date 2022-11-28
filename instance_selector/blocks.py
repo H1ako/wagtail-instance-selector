@@ -4,7 +4,6 @@ from wagtail import VERSION as WAGTAIL_VERSION
 from instance_selector.widgets import InstanceSelectorWidget
 from instance_selector.registry import registry
 
-print(WAGTAIL_VERSION)
 if WAGTAIL_VERSION >= (3, 0):
     from wagtail.blocks import ChooserBlock
     from wagtail.coreutils import resolve_model_string
