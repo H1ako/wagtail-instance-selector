@@ -2,15 +2,14 @@ import inspect
 from django.conf import settings
 from django.apps import apps
 from django.contrib.auth import get_user_model
+
 from instance_selector.selectors import (
     ModelAdminInstanceSelector,
     WagtailUserInstanceSelector,
 )
-
 from instance_selector.exceptions import ModelAdminLookupFailed
 
 __all__ = ("Registry", "registry")
-
 
 
 class Registry:
