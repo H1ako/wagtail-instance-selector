@@ -25,7 +25,7 @@ class TestModelB(models.Model):
 
 
 class TestModelC(models.Model):
-    body = StreamField(
+    body = (
         StreamField(
             [("test", InstanceSelectorBlock(target_model="test_app.TestModelA"))],
             use_json_field=True,
