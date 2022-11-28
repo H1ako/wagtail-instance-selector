@@ -1,6 +1,14 @@
 Changelog
 =========
 
+### 3.0.0 (28/11/2022)
+
+- Fix Wagtail 3+ compatibility
+
+### 2.1.3 (28/11/2022)
+
+- Fix Django 4+ compatibility
+
 ### 2.1.2
 
 - Fix Django 3.2+ compatibility re: default_app_config declarations
