@@ -1,4 +1,4 @@
-# wagtail-instance-selector
+# wagtail-new-instance-selector
 
 A widget for Wagtail's admin that allows you to create and select related items.
 
@@ -41,7 +41,7 @@ After creation, items can be selected from the success message or from the list 
 ## Installation
 
 ```
-pip install wagtail-instance-selector
+pip install wagtail-new-instance-selector
 ```
 
 and add `'instance_selector'` to `INSTALLED_APPS`.

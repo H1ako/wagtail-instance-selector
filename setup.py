@@ -4,7 +4,7 @@ import instance_selector
 install_requires = ["wagtail>=2.15"]
 
 setup(
-    name="wagtail-instance-selector",
+    name="wagtail-new-instance-selector",
     version=instance_selector.__version__,
     packages=["instance_selector"],
     include_package_data=True,
