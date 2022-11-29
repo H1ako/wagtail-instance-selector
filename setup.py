@@ -1,7 +1,7 @@
 from setuptools import setup
 import instance_selector
 
-install_requires = ["wagtail>=2.15"]
+install_requires = ["django>=3,<5", "wagtail>=2.15"]
 
 setup(
     name="wagtail-new-instance-selector",
