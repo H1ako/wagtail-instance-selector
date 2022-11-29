@@ -1,11 +1,13 @@
 from setuptools import setup
-import instance_selector
 
-install_requires = ["django>=3,<5", "wagtail>=2.15"]
+install_requires = ["django>=2.2.2", "wagtail>=2.15"]
+
+__version__ = "3.0.5"
 
 setup(
     name="wagtail-new-instance-selector",
-    version=instance_selector.__version__,
+    install_requires=install_requires,
+    version=__version__,
     packages=["instance_selector"],
     include_package_data=True,
     description="A widget for Wagtail's admin that allows you to create and select related items",
@@ -13,7 +15,6 @@ setup(
     author="The Interaction Consortium & Sobolev Nikita",
     author_email="nikita-sobolev-wd@yandex.ru",
     url="https://github.com/H1ako/wagtail-instance-selector",
-    install_requires=install_requires,
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Environment :: Web Environment",

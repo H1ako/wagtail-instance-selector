@@ -1,6 +1,12 @@
 Changelog
 =========
 
+### 3.0.2 (28/11/2022)
+
+- Fix setup requirements
+
+
+
 ### 3.0.1 (28/11/2022)
 
 - Fix requirements
