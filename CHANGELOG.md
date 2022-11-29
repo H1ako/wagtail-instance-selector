@@ -1,6 +1,11 @@
 Changelog
 =========
 
+### 3.0.1 (28/11/2022)
+
+- Fix requirements
+
+
 ### 3.0.0 (28/11/2022)
 
 - Fix Wagtail 3+ compatibility
